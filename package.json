@@ -13,7 +13,7 @@
     "package": "electron-forge package",
     "make": "electron-forge make",
     "publish": "electron-forge publish",
-    "dev": "concurrently npm:dev:run npm:dev:serve",
+    "dev": "concurrently yarn:dev:run yarn:dev:serve",
     "dev:run": "yarn start -- -- dev",
     "dev:serve": "snowpack dev",
     "build": "snowpack build"
