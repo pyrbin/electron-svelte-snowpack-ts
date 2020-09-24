@@ -1,5 +1,5 @@
 module.exports = {
-  purge: ["./src/renderer/**/*.svelte", "./src/renderer/**/*.tsx"],
+  purge: ["./src/renderer/**/*.svelte", "./src/renderer/**/*.ts"],
   experimental: {
     applyComplexClasses: true,
     uniformColorPalette: true,
